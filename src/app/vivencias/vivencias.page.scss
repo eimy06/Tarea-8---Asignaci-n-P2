@@ -1,0 +1,32 @@
+ion-content {
+    background-image: url('../../assets/background.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+}
+
+ion-title {
+    font-size: 24px;
+    color: white; 
+}
+  
+ion-list {
+    ion-item {
+      ion-label {
+        color: white;
+      }
+      ion-input, ion-textarea {
+        border: 2px solid darkgreen; 
+        color: white;
+      }
+    }
+}
+  
+ion-button {
+    background-color: darkgreen; 
+    color: khaki;
+    font-weight: bold;
+    &:hover {
+      background-color: white; 
+    }
+}

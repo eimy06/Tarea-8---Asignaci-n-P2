@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Detalles de Vivencia</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      {{ vivencia.titulo }}
+    </ion-card-header>
+    <ion-card-content>
+      <p>Fecha: {{ vivencia.fecha }}</p>
+      <p>Descripción: {{ vivencia.descripcion }}</p>
+      <p>Foto: {{ vivencia.foto }}</p>
+      <p>Audio: {{ vivencia.audio }}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
